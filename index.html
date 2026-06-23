@@ -1,0 +1,365 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Apex Academy | Nurturing Future Leaders</title>
+  <meta name="description" content="Welcome to Apex Academy, where academic excellence meets holistic growth. Discover our curriculum, admissions process, and campus highlights.">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+  <!-- --- HEADER NAVIGATION --- -->
+  <header class="header">
+    <div class="container nav-container">
+      <a href="index.html" class="logo" id="headerLogo">
+        <div class="logo-icon">A</div>
+        Apex<span>Academy</span>
+      </a>
+      <button class="hamburger" aria-label="Toggle Navigation" id="navToggle">
+        <span class="bar"></span>
+        <span class="bar"></span>
+        <span class="bar"></span>
+      </button>
+      <ul class="nav-menu" id="navMenu">
+        <li class="nav-item"><a href="index.html" class="nav-link active" id="navHome">Home</a></li>
+        <li class="nav-item"><a href="about.html" class="nav-link" id="navAbout">About Us</a></li>
+        <li class="nav-item"><a href="academics.html" class="nav-link" id="navAcademics">Academics</a></li>
+        <li class="nav-item"><a href="index.html#ourAchievers" class="nav-link" id="navAchievers">Achievers</a></li>
+        <li class="nav-item"><a href="admissions.html" class="nav-link" id="navAdmissions">Admissions</a></li>
+        <li class="nav-item"><a href="contact.html" class="nav-link" id="navContact">Contact</a></li>
+        <li class="nav-item"><a href="admissions.html" class="nav-cta" id="navApply">Apply Now</a></li>
+      </ul>
+    </div>
+  </header>
+
+  <!-- --- ANNOUNCEMENT BANNER --- -->
+  <div class="ticker-wrap" id="announcementTicker">
+    <div class="ticker">
+      <div class="ticker-item"><span>NEW</span> Admissions open for the Academic Year 2026-27! Register before July 15th.</div>
+      <div class="ticker-item"><span>EVENT</span> Annual Science Exhibition scheduled for Friday, July 10th.</div>
+      <div class="ticker-item"><span>AWARD</span> Apex Academy ranked #1 in District Athletic Championships.</div>
+      <div class="ticker-item"><span>NOTICE</span> Parent-Teacher conference will be conducted on June 30th.</div>
+    </div>
+  </div>
+
+  <!-- --- HERO SECTION --- -->
+  <section class="hero" id="homeHero">
+    <div class="container hero-grid">
+      <div class="hero-content">
+        <span class="badge">Welcome to Apex Academy</span>
+        <h1 class="hero-title">Shaping a <span>Brighter Future</span> for Every Student</h1>
+        <p class="hero-description">At Apex Academy, we believe in unlocking the unique potential within each child. Through rigorous academics, innovative laboratories, and rich co-curricular opportunities, we prepare students to succeed globally.</p>
+        <div class="hero-buttons">
+          <a href="admissions.html" class="btn btn-secondary" id="heroApplyBtn">Enroll Today</a>
+          <a href="about.html" class="btn btn-outline-white" id="heroExploreBtn">Explore Campus</a>
+        </div>
+      </div>
+      <div class="hero-image-card">
+        <img src="images/hero.png" alt="Apex Academy Campus Building">
+        <div class="quick-contact-badge">
+          <svg width="24" height="24" fill="none" stroke="#f59e0b" stroke-width="2" viewBox="0 0 24 24"><path d="M22 16.92v3a2 2 0 0 1-2.18 2 19.79 19.79 0 0 1-8.63-3.07 19.5 19.5 0 0 1-6-6 19.79 19.79 0 0 1-3.07-8.67A2 2 0 0 1 4.11 2h3a2 2 0 0 1 2 1.72 12.84 12.84 0 0 0 .7 2.81 2 2 0 0 1-.45 2.11L8.09 9.91a16 16 0 0 0 6 6l1.27-1.27a2 2 0 0 1 2.11-.45 12.84 12.84 0 0 0 2.81.7A2 2 0 0 1 22 16.92z"></path></svg>
+          <div>
+            <p><strong>Have questions? Speak to us</strong></p>
+            <p>+1 (555) 123-4567</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- --- STATS SECTION --- -->
+  <section class="stats-section" id="statsSection">
+    <div class="container">
+      <div class="stats-grid">
+        <div class="stat-card">
+          <div class="stat-number" data-target="1500" data-suffix="+">0</div>
+          <div class="stat-title">Enrolled Students</div>
+        </div>
+        <div class="stat-card">
+          <div class="stat-number" data-target="120" data-suffix="+">0</div>
+          <div class="stat-title">Expert Faculty</div>
+        </div>
+        <div class="stat-card">
+          <div class="stat-number" data-target="25" data-suffix="+">0</div>
+          <div class="stat-title">Student Clubs</div>
+        </div>
+        <div class="stat-card">
+          <div class="stat-number" data-target="98" data-suffix="%">0</div>
+          <div class="stat-title">College Placement</div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- --- WELCOME / WHY CHOOSE US --- -->
+  <section class="section-padding" id="whyChooseUs">
+    <div class="container welcome-grid">
+      <div class="welcome-image-stack">
+        <img src="images/classroom.png" alt="Students in modern classroom" class="welcome-img-main">
+        <img src="images/extracurricular.png" alt="Students playing sports" class="welcome-img-sub">
+      </div>
+      <div class="welcome-content">
+        <span class="badge" style="background-color: var(--color-accent-light); color: var(--color-accent); border-color: rgba(13,148,136,0.3);">Why Apex Academy?</span>
+        <h3>A Foundation for Life-Long Academic Achievement</h3>
+        <p>Apex Academy offers a collaborative, technology-integrated learning environment designed to stimulate intellectual curiosity. We align global best practices with state-of-the-art infrastructure to ensure your child receives the highest quality education.</p>
+        <ul class="welcome-bullets">
+          <li>
+            <svg width="20" height="20" fill="none" stroke="currentColor" stroke-width="2.5" viewBox="0 0 24 24"><polyline points="20 6 9 17 4 12"></polyline></svg>
+            Advanced STEAM (Science, Tech, Engineering, Art, Math) Labs
+          </li>
+          <li>
+            <svg width="20" height="20" fill="none" stroke="currentColor" stroke-width="2.5" viewBox="0 0 24 24"><polyline points="20 6 9 17 4 12"></polyline></svg>
+            Personalized mentoring and low student-to-teacher ratio (12:1)
+          </li>
+          <li>
+            <svg width="20" height="20" fill="none" stroke="currentColor" stroke-width="2.5" viewBox="0 0 24 24"><polyline points="20 6 9 17 4 12"></polyline></svg>
+            Extensive sports academy with certified national-level trainers
+          </li>
+        </ul>
+        <a href="about.html" class="btn btn-primary" id="welcomeReadMore">Read Our History</a>
+      </div>
+    </div>
+  </section>
+
+  <!-- --- PRINCIPAL'S MESSAGE --- -->
+  <section class="section-padding principal-section" id="principalMessage">
+    <div class="container principal-grid">
+      <div class="principal-img-card">
+        <img src="images/ram.jpeg" alt="Principal of Apex Academy Ramesh Bhatt">
+        <div class="principal-title-card">
+          <p class="principal-name">Ramesh Bhatt</p>
+          <p class="principal-role">Principal</p>
+        </div>
+      </div>
+      <div class="principal-text">
+        <span class="badge" style="background-color: rgba(255,255,255,0.1); color: var(--color-secondary); border-color: rgba(255,255,255,0.2);">A Word from Principal Ramesh Bhatt</span>
+        <h2>Building Character, Confidence, and Excellence</h2>
+        <p>“Dear students, parents, and well-wishers — it is my privilege to lead Apex Academy. We believe every child carries unique talent, and our role is to guide that potential with care, discipline, and high academic standards. Together, we create an environment where students learn with curiosity, act with integrity, and grow into responsible leaders of tomorrow.”</p>
+        <p class="principal-signature">Ramesh Bhatt<br><span style="font-size: 0.9rem; font-weight: 500; opacity: 0.85;">Principal, Apex Academy</span></p>
+      </div>
+    </div>
+  </section>
+
+  <!-- --- FEATURED HIGHLIGHTS --- -->
+  <section class="section-padding" id="highlightsSection">
+    <div class="container">
+      <div class="section-header text-center">
+        <span class="badge">Campus Life</span>
+        <h2 class="section-title">Latest Highlights & Events</h2>
+        <p class="section-subtitle">Stay connected with the vibrant happenings and outstanding achievements at Apex Academy.</p>
+      </div>
+      <div class="highlight-grid">
+        <article class="highlight-card">
+          <div class="highlight-img">
+            <img src="images/classroom.png" alt="Science Lab Event">
+            <span class="highlight-category">Academics</span>
+          </div>
+          <div class="highlight-body">
+            <div class="highlight-date">
+              <svg width="14" height="14" fill="none" stroke="currentColor" stroke-width="2" viewBox="0 0 24 24"><rect x="3" y="4" width="18" height="18" rx="2" ry="2"></rect><line x1="16" y1="2" x2="16" y2="6"></line><line x1="8" y1="2" x2="8" y2="6"></line><line x1="3" y1="10" x2="21" y2="10"></line></svg>
+              June 18, 2026
+            </div>
+            <h4 class="highlight-card-title"><a href="#">Next-Gen Chemistry Lab Launched</a></h4>
+            <p class="highlight-card-desc">We have inaugurated our high-performance chemistry and materials science facility to boost hands-on student experimentation.</p>
+          </div>
+        </article>
+        <article class="highlight-card">
+          <div class="highlight-img">
+            <img src="images/extracurricular.png" alt="School Sports Cup">
+            <span class="highlight-category">Sports</span>
+          </div>
+          <div class="highlight-body">
+            <div class="highlight-date">
+              <svg width="14" height="14" fill="none" stroke="currentColor" stroke-width="2" viewBox="0 0 24 24"><rect x="3" y="4" width="18" height="18" rx="2" ry="2"></rect><line x1="16" y1="2" x2="16" y2="6"></line><line x1="8" y1="2" x2="8" y2="6"></line><line x1="3" y1="10" x2="21" y2="10"></line></svg>
+              June 12, 2026
+            </div>
+            <h4 class="highlight-card-title"><a href="#">Apex Soccer Team Enters Finals</a></h4>
+            <p class="highlight-card-desc">With an undefeated season record, our senior soccer boys team progresses to the Inter-School Championship finals.</p>
+          </div>
+        </article>
+        <article class="highlight-card">
+          <div class="highlight-img">
+            <img src="images/hero.png" alt="Apex Campus at Evening">
+            <span class="highlight-category">Campus</span>
+          </div>
+          <div class="highlight-body">
+            <div class="highlight-date">
+              <svg width="14" height="14" fill="none" stroke="currentColor" stroke-width="2" viewBox="0 0 24 24"><rect x="3" y="4" width="18" height="18" rx="2" ry="2"></rect><line x1="16" y1="2" x2="16" y2="6"></line><line x1="8" y1="2" x2="8" y2="6"></line><line x1="3" y1="10" x2="21" y2="10"></line></svg>
+              June 05, 2026
+            </div>
+            <h4 class="highlight-card-title"><a href="#">Sustainable Campus Award</a></h4>
+            <p class="highlight-card-desc">Apex Academy has been awarded the green flag certification for carbon offset campaigns and organic composting projects.</p>
+          </div>
+        </article>
+      </div>
+    </div>
+  </section>
+
+  <!-- --- OUR ACHIEVERS --- -->
+  <section class="section-padding achievers-section" id="ourAchievers">
+    <div class="container">
+      <div class="section-header text-center">
+        <span class="badge">Hall of Fame</span>
+        <h2 class="section-title">Our Achievers</h2>
+        <p class="section-subtitle">Celebrating the exceptional milestones and victories of our students in sports, academics, and co-curricular programs.</p>
+      </div>
+
+      <div class="achievers-grid">
+        <!-- Sports Achievements -->
+        <div class="achievers-column">
+          <h3 class="achievers-col-title">
+            <svg width="24" height="24" fill="none" stroke="currentColor" stroke-width="2.5" viewBox="0 0 24 24"><circle cx="12" cy="8" r="7"></circle><polyline points="8.21 13.89 7 23 12 20 17 23 15.79 13.88"></polyline></svg>
+            Sports Achievements
+          </h3>
+          <div class="achievement-list">
+            <div class="achievement-card sports">
+              <div class="achievement-badge-icon">🏆</div>
+              <div class="achievement-info">
+                <h5>National Swimming Championship</h5>
+                <p class="achiever-name">Liam Chen (Grade 11)</p>
+                <p class="achiever-desc">Gold Medal in 100m Backstroke and Silver in 200m Freestyle at the National Inter-School Aquatics Meet.</p>
+              </div>
+            </div>
+            <div class="achievement-card sports">
+              <div class="achievement-badge-icon">⚽</div>
+              <div class="achievement-info">
+                <h5>Inter-School Soccer League</h5>
+                <p class="achiever-name">Under-17 Varsity Boys Team</p>
+                <p class="achiever-desc">Tournament champions with an undefeated 8-match streak, defeating Riverdale High 3-1 in the finals.</p>
+              </div>
+            </div>
+            <div class="achievement-card sports">
+              <div class="achievement-badge-icon">🏃‍♀️</div>
+              <div class="achievement-info">
+                <h5>District Track & Field Meet</h5>
+                <p class="achiever-name">Sophia Rodriguez (Grade 10)</p>
+                <p class="achiever-desc">Broke the district 400m hurdles record with a time of 58.42 seconds, securing first place.</p>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <!-- Academic Achievements -->
+        <div class="achievers-column">
+          <h3 class="achievers-col-title">
+            <svg width="24" height="24" fill="none" stroke="currentColor" stroke-width="2.5" viewBox="0 0 24 24"><path d="M22 10v6M2 10l10-5 10 5-10 5z"></path><path d="M6 12v5c3 3 9 3 12 0v-5"></path></svg>
+            Academic Achievements
+          </h3>
+          <div class="achievement-list">
+            <div class="achievement-card academic">
+              <div class="achievement-badge-icon">📐</div>
+              <div class="achievement-info">
+                <h5>National Math Olympiad</h5>
+                <p class="achiever-name">Aanya Patel (Grade 12)</p>
+                <p class="achiever-desc">Qualified for the International Mathematical Olympiad camp with All-India Rank 12.</p>
+              </div>
+            </div>
+            <div class="achievement-card academic">
+              <div class="achievement-badge-icon">🎓</div>
+              <div class="achievement-info">
+                <h5>Board Examination Excellence</h5>
+                <p class="achiever-name">Rajesh Kumar (Grade 10)</p>
+                <p class="achiever-desc">98.6% aggregate with perfect scores in Mathematics and Science, topping the district merit list.</p>
+              </div>
+            </div>
+            <div class="achievement-card academic">
+              <div class="achievement-badge-icon">📚</div>
+              <div class="achievement-info">
+                <h5>National Science Talent Search</h5>
+                <p class="achiever-name">Maya Singh (Grade 11)</p>
+                <p class="achiever-desc">Selected among the top 100 scholars nationwide for renewable energy research.</p>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <!-- Co-Curricular Achievements -->
+        <div class="achievers-column">
+          <h3 class="achievers-col-title">
+            <svg width="24" height="24" fill="none" stroke="currentColor" stroke-width="2.5" viewBox="0 0 24 24"><path d="M22 19a2 2 0 0 1-2 2H4a2 2 0 0 1-2-2V5a2 2 0 0 1 2-2h5l2 3h9a2 2 0 0 1 2 2z"></path></svg>
+            Co-Curricular Achievements
+          </h3>
+          <div class="achievement-list">
+            <div class="achievement-card cocurricular">
+              <div class="achievement-badge-icon">🤖</div>
+              <div class="achievement-info">
+                <h5>International Robotics Olympiad</h5>
+                <p class="achiever-name">Apex Robotics Core Team</p>
+                <p class="achiever-desc">Won the Innovative Autonomous Navigation Award in Tokyo for a search & rescue bot.</p>
+              </div>
+            </div>
+            <div class="achievement-card cocurricular">
+              <div class="achievement-badge-icon">🐝</div>
+              <div class="achievement-info">
+                <h5>National Spelling Bee</h5>
+                <p class="achiever-name">Olivia Vance (Grade 7)</p>
+                <p class="achiever-desc">National runner-up among 400 competitors after 15 rounds of competition.</p>
+              </div>
+            </div>
+            <div class="achievement-card cocurricular">
+              <div class="achievement-badge-icon">🔬</div>
+              <div class="achievement-info">
+                <h5>State Science Fair Excellence</h5>
+                <p class="achiever-name">Ethan Hunt (Grade 12)</p>
+                <p class="achiever-desc">Young Innovator Grant for a low-cost gravity-powered water filtration prototype.</p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div class="text-center" style="margin-top: 2.5rem;">
+        <a href="academics.html#academicsAchievers" class="btn btn-primary">View All Achievements</a>
+      </div>
+    </div>
+  </section>
+
+  <!-- --- FOOTER --- -->
+  <footer class="footer" id="mainFooter">
+    <div class="container footer-grid">
+      <div class="footer-col footer-about">
+        <h3>Apex Academy</h3>
+        <p>Empowering minds, shaping leaders, and fostering innovation for a brighter tomorrow. Apex Academy is committed to academic excellence and holistic development.</p>
+      </div>
+      <div class="footer-col">
+        <h3>Quick Links</h3>
+        <ul class="footer-links">
+          <li><a href="index.html">Home</a></li>
+          <li><a href="about.html">About Us</a></li>
+          <li><a href="academics.html">Academics</a></li>
+          <li><a href="index.html#ourAchievers">Our Achievers</a></li>
+          <li><a href="admissions.html">Admissions</a></li>
+          <li><a href="contact.html">Contact Us</a></li>
+        </ul>
+      </div>
+      <div class="footer-col">
+        <h3>Portals</h3>
+        <ul class="footer-links">
+          <li><a href="#">Student Portal</a></li>
+          <li><a href="#">Parent Portal</a></li>
+          <li><a href="#">Staff Directory</a></li>
+          <li><a href="#">Alumni Network</a></li>
+        </ul>
+      </div>
+      <div class="footer-col footer-newsletter">
+        <h3>Newsletter</h3>
+        <p>Subscribe to stay updated with latest announcements, events, and newsletters.</p>
+        <form class="newsletter-form" id="newsletterForm" onsubmit="event.preventDefault(); alert('Thank you for subscribing!'); this.reset();">
+          <input type="email" placeholder="Your email address" class="newsletter-input" required id="newsletterEmail">
+          <button type="submit" class="newsletter-btn" id="newsletterSubmitBtn">Join</button>
+        </form>
+      </div>
+    </div>
+    <div class="container footer-bottom">
+      <p>&copy; 2026 Apex Academy. All rights reserved.</p>
+      <div class="footer-bottom-links">
+        <a href="#">Privacy Policy</a>
+        <a href="#">Terms of Service</a>
+      </div>
+    </div>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>

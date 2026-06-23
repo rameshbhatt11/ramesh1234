@@ -1,0 +1,345 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Academics | Apex Academy</title>
+  <meta name="description" content="Explore the curriculum, STEAM facilities, and co-curricular programs offered across Primary, Middle, and High School levels at Apex Academy.">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+  <!-- --- HEADER NAVIGATION --- -->
+  <header class="header">
+    <div class="container nav-container">
+      <a href="index.html" class="logo" id="headerLogo">
+        <div class="logo-icon">A</div>
+        Apex<span>Academy</span>
+      </a>
+      <button class="hamburger" aria-label="Toggle Navigation" id="navToggle">
+        <span class="bar"></span>
+        <span class="bar"></span>
+        <span class="bar"></span>
+      </button>
+      <ul class="nav-menu" id="navMenu">
+        <li class="nav-item"><a href="index.html" class="nav-link" id="navHome">Home</a></li>
+        <li class="nav-item"><a href="about.html" class="nav-link" id="navAbout">About Us</a></li>
+        <li class="nav-item"><a href="academics.html" class="nav-link active" id="navAcademics">Academics</a></li>
+        <li class="nav-item"><a href="index.html#ourAchievers" class="nav-link" id="navAchievers">Achievers</a></li>
+        <li class="nav-item"><a href="admissions.html" class="nav-link" id="navAdmissions">Admissions</a></li>
+        <li class="nav-item"><a href="contact.html" class="nav-link" id="navContact">Contact</a></li>
+        <li class="nav-item"><a href="admissions.html" class="nav-cta" id="navApply">Apply Now</a></li>
+      </ul>
+    </div>
+  </header>
+
+  <!-- --- PAGE HEADER --- -->
+  <section class="page-header" id="academicsPageHeader">
+    <div class="container">
+      <h1>Academic Programs</h1>
+      <div class="breadcrumb">
+        <a href="index.html">Home</a>
+        <svg width="12" height="12" fill="none" stroke="currentColor" stroke-width="2" viewBox="0 0 24 24"><polyline points="9 18 15 12 9 6"></polyline></svg>
+        <span>Academics</span>
+      </div>
+    </div>
+  </section>
+
+  <!-- --- CURRICULUM SECTIONS (TABS) --- -->
+  <section class="academics-section" id="academicsCurriculum">
+    <div class="container">
+      <div class="section-header text-center">
+        <span class="badge">Education Levels</span>
+        <h2 class="section-title">Our Learning Roadmap</h2>
+        <p class="section-subtitle">A balanced curriculum focused on project-based learning, inquiry, and critical thinking across all age groups.</p>
+      </div>
+
+      <!-- Tab Buttons -->
+      <div class="curriculum-tabs-nav">
+        <button class="tab-btn active" data-tab="primarySchool">Primary School (Grades 1-5)</button>
+        <button class="tab-btn" data-tab="middleSchool">Middle School (Grades 6-8)</button>
+        <button class="tab-btn" data-tab="highSchool">High School (Grades 9-12)</button>
+      </div>
+
+      <!-- Tab Panels -->
+      <!-- Primary School -->
+      <div class="curriculum-tab-panel active" id="primarySchool">
+        <div class="curriculum-grid">
+          <div class="curriculum-text">
+            <h3>Nurturing Wonder and Core Competencies</h3>
+            <p>During the primary years, we emphasize basic literacy, analytical skills, and emotional growth. Children explore subjects through collaborative projects and play-centered scientific activities.</p>
+            <ul class="curriculum-list">
+              <li>
+                <svg width="18" height="18" fill="none" stroke="currentColor" stroke-width="2.5" viewBox="0 0 24 24"><polyline points="20 6 9 17 4 12"></polyline></svg>
+                <span><strong>Core Focus:</strong> English Language Arts, Foundational Mathematics, Environmental Studies, Creative Writing.</span>
+              </li>
+              <li>
+                <svg width="18" height="18" fill="none" stroke="currentColor" stroke-width="2.5" viewBox="0 0 24 24"><polyline points="20 6 9 17 4 12"></polyline></svg>
+                <span><strong>Special Programs:</strong> Introductory Coding (Block-based), Speech and Drama, Ceramic Art.</span>
+              </li>
+              <li>
+                <svg width="18" height="18" fill="none" stroke="currentColor" stroke-width="2.5" viewBox="0 0 24 24"><polyline points="20 6 9 17 4 12"></polyline></svg>
+                <span><strong>Development:</strong> Social adjustment, motor skill refining, team-based tasks.</span>
+              </li>
+            </ul>
+          </div>
+          <div class="curriculum-img-card">
+            <img src="images/classroom.png" alt="Primary School Learning">
+          </div>
+        </div>
+      </div>
+
+      <!-- Middle School -->
+      <div class="curriculum-tab-panel" id="middleSchool">
+        <div class="curriculum-grid">
+          <div class="curriculum-text">
+            <h3>Deepening Inquiry and Analytical Thinking</h3>
+            <p>Middle schoolers transitioning to adolescence are guided to ask deep questions, design science experiments, and construct argumentative essays. We foster self-guided research habits.</p>
+            <ul class="curriculum-list">
+              <li>
+                <svg width="18" height="18" fill="none" stroke="currentColor" stroke-width="2.5" viewBox="0 0 24 24"><polyline points="20 6 9 17 4 12"></polyline></svg>
+                <span><strong>Core Focus:</strong> Pre-Algebra, Physical and Life Sciences, World History, Modern Foreign Languages (French/Spanish).</span>
+              </li>
+              <li>
+                <svg width="18" height="18" fill="none" stroke="currentColor" stroke-width="2.5" viewBox="0 0 24 24"><polyline points="20 6 9 17 4 12"></polyline></svg>
+                <span><strong>STEAM Focus:</strong> Robotic assemblies, basic web layout programming, and scientific lab rotations.</span>
+              </li>
+              <li>
+                <svg width="18" height="18" fill="none" stroke="currentColor" stroke-width="2.5" viewBox="0 0 24 24"><polyline points="20 6 9 17 4 12"></polyline></svg>
+                <span><strong>Activities:</strong> Youth Parliament debates, spelling bees, inter-house academic quiz leagues.</span>
+              </li>
+            </ul>
+          </div>
+          <div class="curriculum-img-card">
+            <img src="images/classroom.png" alt="Middle School Science Lab" style="filter: saturate(1.2);">
+          </div>
+        </div>
+      </div>
+
+      <!-- High School -->
+      <div class="curriculum-tab-panel" id="highSchool">
+        <div class="curriculum-grid">
+          <div class="curriculum-text">
+            <h3>Preparing for College and Global Leadership</h3>
+            <p>Our high school program offers honors and advanced placement options, preparing graduates to succeed in selective universities worldwide. College counselors provide comprehensive pathway advising.</p>
+            <ul class="curriculum-list">
+              <li>
+                <svg width="18" height="18" fill="none" stroke="currentColor" stroke-width="2.5" viewBox="0 0 24 24"><polyline points="20 6 9 17 4 12"></polyline></svg>
+                <span><strong>Core Pathways:</strong> STEM (Calculus, Physics, Chemistry, CS) or Humanities (Literature, Economics, History, Psychology).</span>
+              </li>
+              <li>
+                <svg width="18" height="18" fill="none" stroke="currentColor" stroke-width="2.5" viewBox="0 0 24 24"><polyline points="20 6 9 17 4 12"></polyline></svg>
+                <span><strong>Honors Options:</strong> College Board AP Courses, Senior Thesis projects, and Lab Assistantships.</span>
+              </li>
+              <li>
+                <svg width="18" height="18" fill="none" stroke="currentColor" stroke-width="2.5" viewBox="0 0 24 24"><polyline points="20 6 9 17 4 12"></polyline></svg>
+                <span><strong>Milestones:</strong> SAT/ACT test prep, university mock interviews, career job shadowing internships.</span>
+              </li>
+            </ul>
+          </div>
+          <div class="curriculum-img-card">
+            <img src="images/hero.png" alt="High School Graduation Preparation">
+          </div>
+        </div>
+      </div>
+
+    </div>
+  </section>
+
+  <!-- --- EXTRA-CURRICULAR ACTIVITIES --- -->
+  <section class="section-padding" style="background-color: var(--color-bg-white);" id="academicsExtra">
+    <div class="container">
+      <div class="section-header text-center">
+        <span class="badge" style="background-color: var(--color-accent-light); color: var(--color-accent); border-color: rgba(13,148,136,0.3);">Beyond Classrooms</span>
+        <h2 class="section-title">Co-Curricular & Enrichment</h2>
+        <p class="section-subtitle">We believe a complete education nurtures physical stamina, artistic expression, and community service.</p>
+      </div>
+
+      <div class="activities-grid">
+        <div class="activity-card">
+          <img src="images/extracurricular.png" alt="Athletics & Sports Club">
+          <div class="activity-content">
+            <h4 class="activity-title">Elite Sports Academy</h4>
+            <p class="activity-desc">Professional training in soccer, basketball, swimming, athletics, and tennis. Team spirit and discipline.</p>
+          </div>
+        </div>
+        <div class="activity-card">
+          <img src="images/classroom.png" alt="Music and Art room">
+          <div class="activity-content">
+            <h4 class="activity-title">Music & Performing Arts</h4>
+            <p class="activity-desc">Instrumental training, symphonic band, theatrical drama, and contemporary dance programs.</p>
+          </div>
+        </div>
+        <div class="activity-card">
+          <img src="images/hero.png" alt="Robotics and Debate clubs">
+          <div class="activity-content">
+            <h4 class="activity-title">Societies & Tech Clubs</h4>
+            <p class="activity-desc">Special interest groups including Robotics & AI, Model United Nations, Chess, and Ecological Club.</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- --- OUR ACHIEVERS SECTION --- -->
+  <section class="section-padding achievers-section" id="academicsAchievers">
+    <div class="container">
+      <div class="section-header text-center">
+        <span class="badge">Hall of Fame</span>
+        <h2 class="section-title">Our Achievers</h2>
+        <p class="section-subtitle">Celebrating the exceptional milestones and victories of our students in sports, academics, and co-curricular programs.</p>
+      </div>
+
+      <div class="achievers-grid">
+        <!-- Sports Achievements Column -->
+        <div class="achievers-column">
+          <h3 class="achievers-col-title">
+            <svg width="24" height="24" fill="none" stroke="currentColor" stroke-width="2.5" viewBox="0 0 24 24"><circle cx="12" cy="8" r="7"></circle><polyline points="8.21 13.89 7 23 12 20 17 23 15.79 13.88"></polyline></svg>
+            Sports Achievements
+          </h3>
+          <div class="achievement-list">
+            <div class="achievement-card sports">
+              <div class="achievement-badge-icon">🏆</div>
+              <div class="achievement-info">
+                <h5>National Swimming Championship</h5>
+                <p class="achiever-name">Liam Chen (Grade 11)</p>
+                <p class="achiever-desc">Secured Gold Medal in 100m Backstroke and Silver in 200m Freestyle during the National Inter-School Aquatics Meet.</p>
+              </div>
+            </div>
+            <div class="achievement-card sports">
+              <div class="achievement-badge-icon">⚽</div>
+              <div class="achievement-info">
+                <h5>Inter-School Soccer League</h5>
+                <p class="achiever-name">Under-17 Varsity Boys Team</p>
+                <p class="achiever-desc">Emerged as tournament champions with an undefeated streak of 8 matches, defeating Riverdale High in the finals 3-1.</p>
+              </div>
+            </div>
+            <div class="achievement-card sports">
+              <div class="achievement-badge-icon">🏃‍♀️</div>
+              <div class="achievement-info">
+                <h5>District Track & Field Meet</h5>
+                <p class="achiever-name">Sophia Rodriguez (Grade 10)</p>
+                <p class="achiever-desc">Broke the district record in the 400m hurdles with a clock-time of 58.42 seconds, securing first place.</p>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <!-- Academic Achievements Column -->
+        <div class="achievers-column">
+          <h3 class="achievers-col-title">
+            <svg width="24" height="24" fill="none" stroke="currentColor" stroke-width="2.5" viewBox="0 0 24 24"><path d="M22 10v6M2 10l10-5 10 5-10 5z"></path><path d="M6 12v5c3 3 9 3 12 0v-5"></path></svg>
+            Academic Achievements
+          </h3>
+          <div class="achievement-list">
+            <div class="achievement-card academic">
+              <div class="achievement-badge-icon">📐</div>
+              <div class="achievement-info">
+                <h5>National Math Olympiad</h5>
+                <p class="achiever-name">Aanya Patel (Grade 12)</p>
+                <p class="achiever-desc">Qualified for the International Mathematical Olympiad camp after securing All-India Rank 12 among 50,000 participants.</p>
+              </div>
+            </div>
+            <div class="achievement-card academic">
+              <div class="achievement-badge-icon">🎓</div>
+              <div class="achievement-info">
+                <h5>Board Examination Excellence</h5>
+                <p class="achiever-name">Rajesh Kumar (Grade 10)</p>
+                <p class="achiever-desc">Achieved 98.6% aggregate with perfect scores in Mathematics and Science, topping the district merit list.</p>
+              </div>
+            </div>
+            <div class="achievement-card academic">
+              <div class="achievement-badge-icon">📚</div>
+              <div class="achievement-info">
+                <h5>National Science Talent Search</h5>
+                <p class="achiever-name">Maya Singh (Grade 11)</p>
+                <p class="achiever-desc">Selected among the top 100 scholars nationwide for her research paper on renewable energy storage solutions.</p>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <!-- Co-Curricular Achievements Column -->
+        <div class="achievers-column">
+          <h3 class="achievers-col-title">
+            <svg width="24" height="24" fill="none" stroke="currentColor" stroke-width="2.5" viewBox="0 0 24 24"><path d="M22 19a2 2 0 0 1-2 2H4a2 2 0 0 1-2-2V5a2 2 0 0 1 2-2h5l2 3h9a2 2 0 0 1 2 2z"></path></svg>
+            Co-Curricular Achievements
+          </h3>
+          <div class="achievement-list">
+            <div class="achievement-card cocurricular">
+              <div class="achievement-badge-icon">🤖</div>
+              <div class="achievement-info">
+                <h5>International Robotics Olympiad</h5>
+                <p class="achiever-name">Apex Robotics Core Team</p>
+                <p class="achiever-desc">Awarded the "Innovative Autonomous Navigation Award" in Tokyo for designing a maze-navigating search & rescue bot.</p>
+              </div>
+            </div>
+            <div class="achievement-card cocurricular">
+              <div class="achievement-badge-icon">🐝</div>
+              <div class="achievement-info">
+                <h5>National Spelling Bee Competition</h5>
+                <p class="achiever-name">Olivia Vance (Grade 7)</p>
+                <p class="achiever-desc">Secured the national runner-up position among 400 competitors after spelling 42 words correctly over 15 rounds.</p>
+              </div>
+            </div>
+            <div class="achievement-card cocurricular">
+              <div class="achievement-badge-icon">🔬</div>
+              <div class="achievement-info">
+                <h5>State Science Fair Excellence</h5>
+                <p class="achiever-name">Ethan Hunt (Grade 12)</p>
+                <p class="achiever-desc">Won the "Young Innovator Grant" for a low-cost, gravity-powered water filtration prototype using organic sand layers.</p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- --- FOOTER --- -->
+  <footer class="footer" id="mainFooter">
+    <div class="container footer-grid">
+      <div class="footer-col footer-about">
+        <h3>Apex Academy</h3>
+        <p>Empowering minds, shaping leaders, and fostering innovation for a brighter tomorrow. Apex Academy is committed to academic excellence and holistic development.</p>
+      </div>
+      <div class="footer-col">
+        <h3>Quick Links</h3>
+        <ul class="footer-links">
+          <li><a href="index.html">Home</a></li>
+          <li><a href="about.html">About Us</a></li>
+          <li><a href="academics.html">Academics</a></li>
+          <li><a href="admissions.html">Admissions</a></li>
+          <li><a href="contact.html">Contact Us</a></li>
+        </ul>
+      </div>
+      <div class="footer-col">
+        <h3>Portals</h3>
+        <ul class="footer-links">
+          <li><a href="#">Student Portal</a></li>
+          <li><a href="#">Parent Portal</a></li>
+          <li><a href="#">Staff Directory</a></li>
+          <li><a href="#">Alumni Network</a></li>
+        </ul>
+      </div>
+      <div class="footer-col footer-newsletter">
+        <h3>Newsletter</h3>
+        <p>Subscribe to stay updated with latest announcements, events, and newsletters.</p>
+        <form class="newsletter-form" id="newsletterForm" onsubmit="event.preventDefault(); alert('Thank you for subscribing!'); this.reset();">
+          <input type="email" placeholder="Your email address" class="newsletter-input" required id="newsletterEmail">
+          <button type="submit" class="newsletter-btn" id="newsletterSubmitBtn">Join</button>
+        </form>
+      </div>
+    </div>
+    <div class="container footer-bottom">
+      <p>&copy; 2026 Apex Academy. All rights reserved.</p>
+      <div class="footer-bottom-links">
+        <a href="#">Privacy Policy</a>
+        <a href="#">Terms of Service</a>
+      </div>
+    </div>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
